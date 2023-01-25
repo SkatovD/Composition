@@ -8,8 +8,8 @@ interface GameRepository {
 
     fun generateQuestion(
         maxSumValue: Int,
-        countOfOptions: Int ,
-    ) :Question
+        countOfOptions: Int,
+    ): Question
 
     fun getGameSetting(level: Level): GameSettings
 }
